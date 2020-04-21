@@ -11,10 +11,10 @@ import string
 #import preprocessor as p
 
 
-consumer_key = 'F393wcPwtC9xIXHKHTDZSslUj'
-consumer_secret = 'jQSxnsaEVQCzpPFcN3oqrPIdmG2GKmlrHxh0VZKJgXsURuDNAA'
-access_key = '1100498683207081984-lNoZklPutVVbRncWclE3FNRwA9w0be'
-access_secret = 'owT3LEULdWRPEsqeoWR293EUzErs4W9qC7JxYChHr69Tm'
+consumer_key = ''
+consumer_secret = ''
+access_key = ''
+access_secret = ''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_key, access_secret)
